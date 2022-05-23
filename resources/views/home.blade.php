@@ -11,5 +11,6 @@
     <h1>halaman home</h1>
     <h2>{{ $nama }}</h2>
 <script src="js/script.js"></script>
+
 </body>
 </html>
