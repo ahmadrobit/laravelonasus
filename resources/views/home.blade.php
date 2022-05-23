@@ -9,5 +9,6 @@
 </head>
 <body>
     <h1>halaman home</h1>
+<script src=""></script>
 </body>
 </html>
