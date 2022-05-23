@@ -15,10 +15,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 //    return view('welcome');
-    return view('home');
+    return view('home',[
+        "nama"=>"ahmad robit"
+    ]);
 });
-Route::get('/about', function () {
-        return view('about');
+Route::get('/about ', function () {
+    return view('about',[
+        "name"=>"ahmad robit zumri"
+    ]);
 });
 Route::get('/posts', function () {
     return view('posts');
