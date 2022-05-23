@@ -9,6 +9,6 @@
 </head>
 <body>
     <h1>halaman home</h1>
-<script src=""></script>
+<script src="js/script.js"></script>
 </body>
 </html>
