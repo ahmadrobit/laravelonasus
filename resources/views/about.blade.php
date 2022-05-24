@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WPU blog | about</title>
-</head>
-<body>
-    <h1>halaman about</h1>
-</body>
-</html>
+@extends('layouts.main')
+@section('container')
+  <h2 class="featurette-heading fw-normal lh-1">halaman about</h2>
+  <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+@endsection
